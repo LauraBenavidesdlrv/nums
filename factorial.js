@@ -5,4 +5,4 @@ function factorizar (num){
     }
     console.log(resultado)
 }
-factorizar(4)
+factorizar(80)
