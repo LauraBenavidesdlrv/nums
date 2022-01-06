@@ -3,6 +3,6 @@ function factorizar (num){
     for(let j = 1; j <= num; j++){
         resultado *= j;
     }
-    console.log(resultado)
+    console.log(resultado);
 }
-factorizar(4)
+factorizar(80)
