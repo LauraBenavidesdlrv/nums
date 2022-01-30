@@ -11,5 +11,17 @@ function devolverMayores(arr){
     }
     console.log (resultado)
 }
-
 devolverMayores([[52,36,555,88], [33,4,666,87,54], [21,1,34,900]]);
+
+//para acceder a turing
+function find_max(nums){
+    let max_num=Number.NEGATIVE_INFINITY;
+    for(let num of nums){
+        if(num>max_num){
+            max_num=num;
+        }
+    }
+    console.log(max_num)
+}
+
+find_max([2,3,4,6,10,5])
